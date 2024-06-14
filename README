@@ -1,0 +1,23 @@
+safe
+----
+
+A simple and intuitive way to encrypt and decrypt sensitive data.
+
+
+USAGE
+
+Use NewSafe to create a new entity. You can provide a 32 bytes key or get a random one created.
+If you use a random key, you won't be able to decrypt your data if you lose access to the Safe
+entity or the program is restarted, so it's very recommended you provide your own key.
+
+Check out 'safe_test.go' for some examples.
+
+
+INSTALLING
+
+go get github.com/BiRabittoh/safe
+
+
+LICENSE
+
+safe is licensed under MIT.
